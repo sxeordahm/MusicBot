@@ -63,7 +63,7 @@ songinstatus=false
 // If you set this, the bot will also use this prefix in addition to
 // the one provided above
 
-altprefix = "NONE"
+altprefix = "+"
 
 
 // If you set these, it will change the various emojis
@@ -79,7 +79,7 @@ searching = "🔎"
 // For example, if you set the prefix to !! and the help to cmds, you would type
 // !!cmds to see the help text
 
-help = help
+help = +help
 
 
 // If you set this, the "nowplaying" command will show youtube thumbnails
@@ -158,7 +158,7 @@ aliases {
   skip = [ voteskip ]
 
   // Admin commands
-  prefix = [ setprefix ]
+  prefix = [ + ]
   setdj = []
   settc = []
   setvc = []
