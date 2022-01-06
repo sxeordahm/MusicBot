@@ -34,7 +34,7 @@ owner = 0
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = "+mention"
 
 
 // If you set this, it modifies the default game of the bot
@@ -158,7 +158,7 @@ aliases {
   skip = [ voteskip ]
 
   // Admin commands
-  prefix = [ setprefix ]
+  prefix = [ + ]
   setdj = []
   settc = []
   setvc = []
